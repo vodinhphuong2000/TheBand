@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    /* Reset CSS */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+html {
+    scroll-behavior: smooth ;
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-full {
+    width: 100%;
+}
+#wrapper{
+    overflow: hidden;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal.open {
+    display: flex;
+}
+
+.modal-container {
+    background: #fff;
+    width: 1000px;
+    min-height: 200px;
+}
+
+.modal-close {
+
+    display: block;
+    float: right;
+    color: #ccc;
+    font-size: 2.4rem;
+    line-height: 36px;
+    padding: 8px 16px;
+
+}
+
+.modal-close:hover {
+    background: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.fa-solid {}
+
+.fa-xmark {}
+
+.modal-container {
+    /* padding: 0px 16px; */
+    animation: modalFacein ease 0.4s;
+}
+
+.modal-header {
+    background: #009688;
+    padding: 32px 16px;
+}
+.btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+.modal-heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    line-height: 45px;
+    margin: 10px 0px;
+    align-items: center;
+
+}
+
+.modal-heading-cart {
+    color: #fff;
+    font-size: 3rem;
+    line-height: 30px;
+    margin-right: 16px;
+    text-align: center;
+}
+
+.fa-ticket {}
+
+.modal-body {
+
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-label {
+    margin: 15px 0px;
+    font-size: 1.5rem;
+}
+
+.fa-cart-shopping {}
+
+.modal-pay {
+    margin: 16px 0px;
+    background: #009688;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal-label-title {
+    font-size: 1.5rem;
+
+}
+
+.modal-label-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    line-height: 22px;
+    font-size: 1.5rem;
+}
+
+.modal-pay-btn {
+    padding: 16px 0px;
+    font-size: 1.5rem;
+
+
+}
+
+.modal-pay:hover {
+    background: #ccc;
+    color: #000;
+}
+
+.modal-footer {
+    margin: 16px 0px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-footer-close:hover {
+    background: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.modal-footer-close {
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    text-align: center;
+    background: #f44336;
+    border: none;
+    color: #fff;
+    height: 40px;
+
+}
+
+.modal-footer-need {
+    margin: 15px 16px 15px 0px;
+    font-size: 1.5rem;
+}
+
+.modal-footer-help {
+    color: #2196f3;
+}
+
+@keyframes modalFacein {
+    from {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+/* ------PC------- */
+@media (min-width: 1024px){
+
+}
+/* -----TABLET----- */
+@media(min-width: 740px) and (max-width: 1023px){
+
+}
+/* ----MOBILE----- */
+@media (max-width: 739px){
+    #header{
+        overflow: hidden;
+    }
+    .nav__item{
+        display: block ;
+    }
+    .search-btn{
+        display: none;
+    }
+    .mobile-menu-btn{
+        display: block;
+    }
+    .nav {
+        display: block;
+    }
+    .nav__item:first-child{
+        display: inline-block;
+    }
+    .subnav{
+        position: initial;
+        background: #333;
+    }
+    .subnav__list{
+        color: #fff;
+        padding: 6px 35px;
+    }
+    .subnav__item{
+        padding: 6px 0px;
+    }
+    .container-content-tour-list{
+        width: 100%;
+
+    }
+    .container-content-address{
+        display: block;
+    }
+    .container-content-section-contact{
+        display: unset;
+    }
+    .container-content-section-contact-name{
+        margin-bottom: 96px;
+        width: 100%;
+    }
+    .container-content-section-contact-info{
+        width: 100%;
+    }
+    .container-content-image{
+        display: unset;
+    }
+    .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .about-content{
+        margin: 15px 15px;
+    }
+    .container-col{
+        width: 100%;
+    }
+    .container-send{
+        width: 100%;
+    }
+    .container-content-tour-list-content-buy{
+        width: 95%;
+
+    }
+    
+}

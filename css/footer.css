@@ -1,0 +1,27 @@
+.footer-contact {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+.footer-icon {}
+
+.footer-icon-name {
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: gray;
+    padding: 6px;
+}
+
+.footer-icon-name:hover {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.copyright {
+    margin: 15px 0px;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.copyright-link {
+    color: gray;
+}

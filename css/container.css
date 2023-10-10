@@ -1,0 +1,310 @@
+#container {
+    margin-top: 46px;
+    /* padding-left: 8px;
+    padding-right: 8px; */
+}
+
+.container-slider {
+
+    padding-top: 50%;
+    background: url("/TheBand/img/slider1.jpg") top center / cover no-repeat;
+    position: relative;
+}
+
+.container-slider-text {
+    position: absolute;
+    bottom: 47px;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    width: 100%;
+    text-align: center;
+
+}
+
+.container-slider-name {
+    font-size: 2.4rem;
+    color: white;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+.container-slider-desc {
+    color: #fff;
+    margin: 15px 0px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.container-content {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: -16px;
+    padding-left: -16px;
+}
+
+.container-content-section {
+    padding-top: 64px;
+
+}
+
+.container-content-section-heading {
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 3rem;
+    line-height: 45px;
+    letter-spacing: 4px;
+}
+
+.container-content-section-slogan {
+    text-align: center;
+    margin: 15px;
+    font-size: 1.5rem;
+    line-height: 22px;
+    font-style: italic;
+    opacity: 0.6;
+
+
+}
+
+.about-content {
+    font-size: 1.5rem;
+    margin: 15px 0px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.container-content-image {
+    padding: 32px 0px 96px;
+    display: flex;
+
+}
+
+.container-content-list {
+
+    text-align: center;
+    width: calc(100% / 3);
+
+}
+
+.container-content-list-name {
+    margin: 15px 0px;
+    font-size: 1.5rem;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.container-content-list-img {
+    width: 60%;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.container-content-section-heading-color {
+    color: #fff;
+
+}
+
+.container-content-section-slogan-color {
+    color: #fff;
+}
+
+.container-content-tour {
+    background: #000;
+}
+
+.container-content-time {
+    background: #fff;
+
+}
+
+.container-content-time {}
+
+.container-content-time-list {
+    list-style: none;
+}
+
+.container-content-month {
+    color: #757575;
+    display: list-item;
+    font-size: 1.5rem;
+    padding: 16px;
+    text-align: left;
+    align-items: center;
+    border: 1px solid #ddd;
+
+}
+
+.container-content-name {
+    background: #f44336;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 16px;
+    padding: 4px 8px;
+    text-align: center;
+
+}
+
+.container-content-name-number {
+    background: #000;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 16px;
+    text-align: center;
+    padding: 4px 8px;
+    float: right;
+    margin-top: -4px;
+}
+
+.container-content-address {
+    padding: 32px 0px 96px 0px;
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+  
+}
+
+.container-content-tour-list {
+    width: calc(100% / 3);
+    background: #fff;
+    margin: 0 8px;
+
+
+
+}
+
+.container-content-tour-list-img {
+    width: 100%;
+}
+
+.container-content-tour-list-img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.container-content-tour-list-content {
+    padding: 0.1px 16px;
+}
+
+.container-content-tour-list-content-address {
+    margin: 15px 0px;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.container-content-tour-list-content-times {
+    margin: 15px 0px;
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+
+.container-content-tour-list-content-title {
+    margin: 15px 0px;
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+
+.container-content-tour-list-content-buy {
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.container-content-tour-list-content-buy:hover {
+    background: #ccc;
+    color: #000;
+}
+
+.container-content-section {}
+
+.container-content-section-heading {}
+
+.container-content-section-slogan {}
+
+.container-content-section-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px;
+
+}
+
+.container-content-section-contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    line-height: 22px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    width: 100%;
+    font-family: 'Lato', sans-serif !important;
+
+
+}
+
+.container-content-section-icon {
+    /* display: block; */
+    padding: 10px 0px;
+    display: flex;
+
+}
+
+.container-content-title-name {
+    margin-left: 14px;
+}
+
+.container-row {
+    margin-top: 10px;
+}
+
+.container-col {
+    margin-bottom: 10px;
+}
+
+.container-send {
+    margin-top: 16px;
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    float: right;
+}
+
+.container-send:hover {
+    background: #ccc;
+    color: #000;
+    cursor: pointer;
+
+}
+
+.fa-solid {}
+
+.fa-location-dot {}
+
+.fa-phone {}
+
+.fa-envelope {}
+
+.container-content-section-contact {
+    padding-bottom: 96px;
+}
+
+.container-content-section-contact-name {
+    font-size: 1.5rem;
+}
+
+.container-content-section-contact-name .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.container-footer-img {
+    width: 100%;
+
+}
