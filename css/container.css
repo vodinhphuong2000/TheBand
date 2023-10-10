@@ -26,6 +26,7 @@
     color: white;
     margin: 10px 0px;
     font-weight: 400;
+    text-shadow: 0 0 1px #000;
 }
 
 .container-slider-desc {
@@ -33,6 +34,7 @@
     margin: 15px 0px;
     font-size: 1.5rem;
     font-weight: 700;
+    text-shadow: 0 0 1px #000;
 }
 
 .container-content {
